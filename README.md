@@ -4,6 +4,8 @@ project to demonstrate the Frida dynamic-analysis framework.
 You can read my "Introduction to Frida" blog post on Medium,
 where I'm explaining how to use Frida on this application.
 
+![Demo](https://i.imgur.com/zYJj5z6.gif)
+
 ### Contribute
 Pull requests are welcome!
 
