@@ -34,7 +34,7 @@ public class EncryptionKey extends Fragment {
             public void onClick(View v) {
                 cipher.setText("");
                 if (!plain.getText().toString().isEmpty()) {
-                    cipher.setText(EncryptionUtil.encprypt(getString(R.string.key), plain.getText().toString()));
+                    cipher.setText(EncryptionUtil.encrypt(getString(R.string.key), plain.getText().toString()));
                 } else {
                     Toast.makeText(getContext(), getString(R.string.no_plaintext), Toast.LENGTH_SHORT).show();
                 }

@@ -14,7 +14,7 @@ import javax.crypto.spec.SecretKeySpec;
 
 public class EncryptionUtil {
 
-    public static String encprypt(String key, String value) {
+    public static String encrypt(String key, String value) {
         try {
             SecretKeySpec secretKeySpec = new SecretKeySpec(key.getBytes("UTF-8"), "AES");
             @SuppressLint("GetInstance") Cipher cipher = Cipher.getInstance("AES/ECB/PKCS5PADDING");
