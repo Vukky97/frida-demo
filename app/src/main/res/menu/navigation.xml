@@ -3,17 +3,17 @@
 
     <item
         android:id="@+id/navigation_home"
-        android:icon="@drawable/ic_home_black_24dp"
-        android:title="PIN bypass" />
+        android:icon="@drawable/ic_pin_black_24dp"
+        android:title="PIN Bypass" />
 
     <item
         android:id="@+id/navigation_dashboard"
-        android:icon="@drawable/ic_dashboard_black_24dp"
+        android:icon="@drawable/ic_android__root_black_24dp"
         android:title="Root Bypass" />
 
     <item
         android:id="@+id/navigation_notifications"
-        android:icon="@drawable/ic_notifications_black_24dp"
-        android:title="@string/title_notifications" />
+        android:icon="@drawable/ic_key_black_24dp"
+        android:title="Encryption Key" />
 
 </menu>
