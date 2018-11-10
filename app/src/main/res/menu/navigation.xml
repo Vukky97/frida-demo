@@ -2,17 +2,17 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
     <item
-        android:id="@+id/navigation_home"
+        android:id="@+id/pin_bypass"
         android:icon="@drawable/ic_pin_black_24dp"
         android:title="PIN Bypass" />
 
     <item
-        android:id="@+id/navigation_dashboard"
+        android:id="@+id/root_bypass"
         android:icon="@drawable/ic_android__root_black_24dp"
         android:title="Root Bypass" />
 
     <item
-        android:id="@+id/navigation_notifications"
+        android:id="@+id/encryption_key"
         android:icon="@drawable/ic_key_black_24dp"
         android:title="Encryption Key" />
 
