@@ -2,14 +2,14 @@ package infosecadventures.fridademo.fragments;
 
 
 import android.os.Bundle;
-import android.support.annotation.NonNull;
-import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.EditText;
 import android.widget.Toast;
 
+import androidx.annotation.NonNull;
+import androidx.fragment.app.Fragment;
 import infosecadventures.fridademo.R;
 import infosecadventures.fridademo.utils.EncryptionUtil;
 
@@ -35,7 +35,7 @@ public class EncryptionKey extends Fragment {
                 cipher.setText("");
                 String plain_text = plain.getText().toString();
                 if (!plain_text.isEmpty()) {
-                    cipher.setText(EncryptionUtil.encrypt("infosecadventures", plain_text));
+                    cipher.setText(EncryptionUtil.encrypt("infosecadventure", plain_text));
                 } else {
                     Toast.makeText(getContext(), getString(R.string.no_plaintext), Toast.LENGTH_SHORT).show();
                 }

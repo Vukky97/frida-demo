@@ -1,11 +1,12 @@
 package infosecadventures.fridademo;
 
 import android.os.Bundle;
-import android.support.annotation.NonNull;
-import android.support.design.widget.BottomNavigationView;
-import android.support.v7.app.AppCompatActivity;
 import android.view.MenuItem;
 
+import com.google.android.material.bottomnavigation.BottomNavigationView;
+
+import androidx.annotation.NonNull;
+import androidx.appcompat.app.AppCompatActivity;
 import infosecadventures.fridademo.fragments.EncryptionKey;
 import infosecadventures.fridademo.fragments.PinBypass;
 import infosecadventures.fridademo.fragments.RootBypass;
