@@ -10,6 +10,6 @@ where I'm explaining how to use Frida on this application.
 Pull requests are welcome!
 
 ### Issues and Support
-Have a bug or a question? Please create an issue here on GitHub!
+Have a bug or a question? Feel free create an issue here on GitHub!
 
 https://github.com/t0thkr1s/FridaDemo/issues
