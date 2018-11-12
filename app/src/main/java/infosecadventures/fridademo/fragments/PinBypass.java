@@ -37,7 +37,7 @@ public class PinBypass extends Fragment {
                     Toast.makeText(getContext(), "PIN is not provided!", Toast.LENGTH_SHORT).show();
                     return;
                 }
-                if (PinUtil.checkPin(getContext(), pin.getText().toString())) {
+                if (PinUtil.checkPin(pin.getText().toString())) {
                     new AlertDialog.Builder(getActivity())
                             .setTitle(getString(R.string.granted))
                             .setMessage(getString(R.string.success_pin))
