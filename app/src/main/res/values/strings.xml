@@ -9,7 +9,6 @@
     <string name="fail_pin">Incorrect PIN!</string>
     <string name="success_message">You have successfully bypassed root detection!</string>
     <string name="success_pin">You have successfully bypassed the PIN check!</string>
-    <string name="pin">4863</string>
-    <string name="key">infosecadventues</string>
+    <string name="key">infosecadventure</string>
     <string name="no_plaintext">Plain text is not provided!</string>
 </resources>
